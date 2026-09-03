@@ -5,11 +5,19 @@
 **Link:** https://leetcode.com/problems/median-of-two-sorted-arrays/
 
 ## Approach
-We can solve this question using 3 ways the bruteforce is very simple we will merge both arrays then if it's odd then return the mid values; otherwise mid-1 and mid avg of both.TC-O(m+n) SC O(m+n)
-Better Approach use two pointers and merge them and then rest do the same it save space but TC will same.
-Optimal we will use binary search and split it in two partitions we will find total left as m+n+1/2 so we need atleast that much element on the left side.
-we will find boundaries then compare them if partion is correct and it's odd then return max(left1, left2)else  do avg of max of left1,left2 and min of right1,right2. Otherwise move the left and right.
+"There are three approaches.
 
+First, we can merge both sorted arrays and then find the median. This takes O(m+n) time and O(m+n) space.
+
+Second, we can simulate the merge using two pointers without creating the merged array. We only track the elements around the median. This still takes O(m+n) time but reduces the space complexity to O(1).
+
+The optimal approach uses binary search. We always perform binary search on the smaller array. We partition both arrays such that the total number of elements on the left is (m+n+1)/2.
+
+For a chosen partition, we look at four boundary values: left1, right1, left2, and right2. The partition is valid when left1 <= right2 and left2 <= right1, because this guarantees that every element on the left is less than or equal to every element on the right.
+
+If the total number of elements is odd, the median is max(left1,left2). If it is even, the median is the average of max(left1,left2) and min(right1,right2).
+
+If left1 > right2, our partition in the first array is too far to the right, so we move right left. Otherwise, we move left right. Since we use binary search on the smaller array, the time complexity is O(log(min(m,n))) and the space complexity is O(1)."
 ## Complexity
 - **Time:** min(log(m,n))
 - **Space:** O(1)
