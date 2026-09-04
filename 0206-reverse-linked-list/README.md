@@ -5,12 +5,13 @@
 **Link:** https://leetcode.com/problems/reverse-linked-list/
 
 ## Approach
-we use slow and fast pointer as we know slow move one place and fast twice. This means when fast to point to null slow will be at mid.
-Like fast=2*slow right
+We need three pointer prev that point to null means we have a pointer that alread in the correct position. 
+next pointer that point to next node of head which is current. 
+what we do: point curr->next=prev and prev=curr,curr=next;
 
 ## Complexity
 - **Time:** O(n)
-- **Space:** O(1)
+- **Space:** o(1)
 
 
 **Patterns used:** `Linked List`
