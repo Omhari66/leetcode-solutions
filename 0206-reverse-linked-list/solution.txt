@@ -10,13 +10,16 @@
  */
 class Solution {
 public:
-    ListNode* middleNode(ListNode* head) {
-        ListNode* slow=head;
-        ListNode* fast=head;
-        while(fast!=NULL&& fast->next!=NULL){
-            slow=slow->next;
-            fast=fast->next->next;
+    ListNode* reverseList(ListNode* head) {
+        ListNode* curr=head;
+        ListNode* prev=nullptr;
+        while(curr!=NULL){
+            ListNode* next=curr->next;
+            curr->next=prev;
+            prev=curr;
+            curr=next;
+
         }
-        return slow;
+        return prev;
     }
 };
