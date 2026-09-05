@@ -5,10 +5,10 @@
 **Link:** https://leetcode.com/problems/add-two-numbers/
 
 ## Approach
-SO we need sum like algebric, we first add a dummy node and a carry variable run a loop till l1,l2,carry not become null. sum both varibale carry will be /10 and ans→next sum%10.
+We need to reorder the list. First, we find the middle, then we reverse the right half part then merge.
 
 ## Complexity
-- **Time:** O(m,n)
+- **Time:** O(n)
 - **Space:** O(1)
 
 
