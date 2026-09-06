@@ -1,6 +1,6 @@
 # My LeetCode Progress
 
-> **6** solved — 3 Easy · 2 Medium · 1 Hard
+> **7** solved — 3 Easy · 3 Medium · 1 Hard
 
 | # | Problem | Difficulty | Folder |
 |---|---------|------------|--------|
@@ -10,3 +10,4 @@
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy | [`0021-merge-two-sorted-lists`](./0021-merge-two-sorted-lists) |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | 🟡 Medium | [`0002-add-two-numbers`](./0002-add-two-numbers) |
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | 🟡 Medium | [`0287-find-the-duplicate-number`](./0287-find-the-duplicate-number) |
+| 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | 🟡 Medium | [`0138-copy-list-with-random-pointer`](./0138-copy-list-with-random-pointer) |
