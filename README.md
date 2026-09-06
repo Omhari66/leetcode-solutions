@@ -1,6 +1,6 @@
 # My LeetCode Progress
 
-> **5** solved — 3 Easy · 1 Medium · 1 Hard
+> **6** solved — 3 Easy · 2 Medium · 1 Hard
 
 | # | Problem | Difficulty | Folder |
 |---|---------|------------|--------|
@@ -9,3 +9,4 @@
 | 206 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | 🟢 Easy | [`0206-reverse-linked-list`](./0206-reverse-linked-list) |
 | 21 | [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | 🟢 Easy | [`0021-merge-two-sorted-lists`](./0021-merge-two-sorted-lists) |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | 🟡 Medium | [`0002-add-two-numbers`](./0002-add-two-numbers) |
+| 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | 🟡 Medium | [`0287-find-the-duplicate-number`](./0287-find-the-duplicate-number) |
