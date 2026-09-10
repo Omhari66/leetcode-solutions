@@ -10,28 +10,32 @@
  */
 class Solution {
 public:
-    ListNode* mergeKLists(vector<ListNode*>& lists) {
+    ListNode* reverseKGroup(ListNode* head, int k) {
         ListNode* dummy=new ListNode(0);
-        ListNode* ans=dummy;
-        struct comparator{
-            bool operator()(ListNode* a, ListNode* b){
-                return a->val>b->val;
+        dummy->next=head;
+        ListNode* gp=dummy;
+        while(true){
+        ListNode* kth=gp;
+            for(int i=0;i<k;i++){
+                    kth=kth->next;
+                if(kth==nullptr){
+                    return dummy->next;
+                }
             }
-        };
-       priority_queue<ListNode*, vector<ListNode*>, comparator> pq;
-        for(ListNode* node: lists){
-            if(node!=NULL){
-                pq.push(node);
+            ListNode* gs=gp->next;
+            ListNode* ng=kth->next;
+
+            ListNode* prev=ng;
+            ListNode* curr=gs;
+            while(curr!=ng){
+                ListNode* next=curr->next;
+                curr->next=prev;
+                prev=curr;
+                curr=next;
             }
-        }
-        while(!pq.empty()){
-            ListNode* smallest=pq.top();
-            ans->next=smallest;
-            ans=ans->next;
-            pq.pop();
-            if(smallest->next!=NULL){
-                pq.push(smallest->next);
-            }
+            gp->next=kth;
+            gp=gs;
+
         }
         return dummy->next;
     }
