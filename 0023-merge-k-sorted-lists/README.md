@@ -5,17 +5,18 @@
 **Link:** https://leetcode.com/problems/merge-k-sorted-lists/
 
 ## Approach
-We have a list of sorted ll and we need to merge them into a ll in asc order.
-One approach could be we can merge them then sort them that also do the job but the time complexity would be then O(n logn) and o(n).
-optimal approach -we will use a priority queue data structure that do the job of finding the sortest element and we can direct point to our dummy node.
-time coplexity-O(n log k) and O(n)
+we need to reverse only k group if these group till the group present in the LL.
+what we do we use node as group prev which point to dummy node and group start next to it. 
+we move our pointer till k then our new group will start from next to kth.
+Now just reverse them using prev, curr, next pointer in the end connect the gs and gp;
+group prev next become kth and group prev equal to group start.
 
 ## Complexity
-- **Time:** O(nlog k)
-- **Space:** o(n)
+- **Time:** o(n)
+- **Space:** O(1)
 
 
-**Patterns used:** `Stack/Queue` `Linked List`
+**Patterns used:** `Linked List`
 
 ---
 _Synced automatically by LeetCode → GitHub Sync._
