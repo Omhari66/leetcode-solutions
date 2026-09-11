@@ -1,6 +1,6 @@
 # My LeetCode Progress
 
-> **8** solved — 3 Easy · 3 Medium · 2 Hard
+> **9** solved — 4 Easy · 3 Medium · 2 Hard
 
 | # | Problem | Difficulty | Folder |
 |---|---------|------------|--------|
@@ -12,3 +12,4 @@
 | 287 | [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | 🟡 Medium | [`0287-find-the-duplicate-number`](./0287-find-the-duplicate-number) |
 | 138 | [Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/) | 🟡 Medium | [`0138-copy-list-with-random-pointer`](./0138-copy-list-with-random-pointer) |
 | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | 🔴 Hard | [`0023-merge-k-sorted-lists`](./0023-merge-k-sorted-lists) |
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 🟢 Easy | [`0020-valid-parentheses`](./0020-valid-parentheses) |
