@@ -5,14 +5,15 @@
 **Link:** https://leetcode.com/problems/valid-parentheses/
 
 ## Approach
-First, I did this question using hashmap I store the closing bracket as key and then traverse the string if that character is not equal to mp key then it a opening bracket so push it to stack.
-else it's a closing bracket so we compare the top of it with the value of mp key if both same then pop it and in the end of our stack is empty we return true.
-it was taking O(n) and (n) tc and sc.
-Better approach we can avoid extra space we can directly check if character is opening like '(' then we push the closing bracket and else we compare if it not opening then it should match with the top of stack. else same
+Only problem with the misStack method that need O(1) others are already take that much tc.
+So we need somthing that take care of the minimum in the stack.
+we can do that for that we need to check all the elements inside stack that take O(n).
+Other way use another stack push it if empty if not then push the min of top of it and current element it will maintaing the minimum element to push at top.
+You need to pop both stack and minstack to maintaing the same element.
 
 ## Complexity
-- **Time:** O(n)
-- **Space:** O(1)
+- **Time:** O(1)
+- **Space:** O(n)
 
 
 **Patterns used:** `Stack/Queue`
