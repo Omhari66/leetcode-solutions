@@ -1,30 +1,20 @@
 class Solution {
 public:
-    string minRemoveToMakeValid(string s) {
-        int bal=0;
-        string res="";
-        string ans="";
-        for(char c:s){
-            if(c=='('){
-                bal++;
-                res+=c;
-            }else if(c==')'){
-                if(bal>0){
-                    bal--;
-                    res+=c;
-                }
-            }else{
-                res+=c;
-            }
+    void backtrack(string curr,int open, int close, int n, vector<string>&ans){
+        if(open==n&&close==n){
+            ans.push_back(curr);
+            return;
         }
-        for(int i=res.length()-1;i>=0;i--){
-            if(res[i]=='('&& bal>0){
-                bal--;
-                continue;
-            }
-            ans+=res[i];
+        if(open<n){
+            backtrack(curr+"(",open+1,close,n,ans);
         }
-        reverse(ans.begin(),ans.end());
+        if(close<open){
+            backtrack(curr+")",open,close+1,n,ans);
+        }
+    }
+    vector<string> generateParenthesis(int n) {
+        vector<string>ans;
+        backtrack("",0,0,n,ans);
         return ans;
     }
 };
