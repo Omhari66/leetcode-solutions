@@ -1,30 +1,30 @@
 class Solution {
 public:
-    int evalRPN(vector<string>& tokens) {
-        stack<int>st;
-        for(string token:tokens){
-            if(token=="+"|| token =="-"||token=="/"||token=="*"){
-                int b=st.top();
-                st.pop();
-                int a=st.top();
-                st.pop();
-                
-                int res;
-                if(token=="+"){
-                    res=a+b;
-                }else if(token=="-"){
-                    res=a-b;
-                }else if(token=="*"){
-                    res=a*b;
-                }else{
-                    res=a/b;
+    string minRemoveToMakeValid(string s) {
+        int bal=0;
+        string res="";
+        string ans="";
+        for(char c:s){
+            if(c=='('){
+                bal++;
+                res+=c;
+            }else if(c==')'){
+                if(bal>0){
+                    bal--;
+                    res+=c;
                 }
-               
-                st.push(res);
             }else{
-                st.push(stoi(token));
+                res+=c;
             }
         }
-        return st.top();
+        for(int i=res.length()-1;i>=0;i--){
+            if(res[i]=='('&& bal>0){
+                bal--;
+                continue;
+            }
+            ans+=res[i];
+        }
+        reverse(ans.begin(),ans.end());
+        return ans;
     }
 };
