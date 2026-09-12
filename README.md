@@ -1,6 +1,6 @@
 # My LeetCode Progress
 
-> **10** solved — 5 Easy · 3 Medium · 2 Hard
+> **11** solved — 5 Easy · 4 Medium · 2 Hard
 
 | # | Problem | Difficulty | Folder |
 |---|---------|------------|--------|
@@ -14,3 +14,4 @@
 | 23 | [Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | 🔴 Hard | [`0023-merge-k-sorted-lists`](./0023-merge-k-sorted-lists) |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 🟢 Easy | [`0020-valid-parentheses`](./0020-valid-parentheses) |
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | 🟢 Easy | [`0496-next-greater-element-i`](./0496-next-greater-element-i) |
+| 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | 🟡 Medium | [`0150-evaluate-reverse-polish-notation`](./0150-evaluate-reverse-polish-notation) |
