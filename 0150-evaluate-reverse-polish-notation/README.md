@@ -5,27 +5,18 @@
 **Link:** https://leetcode.com/problems/evaluate-reverse-polish-notation/
 
 ## Approach
-We traverse all the characters in the string from left to right.
-
-* If the character is `(`, we increment `balance` and add the character to `result`.
-* If the character is `)` and `balance > 0`, it has a matching `(`, so we decrement `balance` and add `)` to `result`.
-* If the character is `)` and `balance == 0`, it has no matching `(`, so we skip it.
-* If the character is not a parenthesis, we simply add it to `result`.
-
-After the first pass, there can still be extra `(` because they may not have a matching `)`.
-
-Therefore, we traverse the resulting string from right to left. If we find an extra `(` while `balance > 0`, we skip it and decrement `balance`.
-
-Because we are building the answer while traversing backward, the resulting string is reversed. Therefore, we reverse it at the end.
-
-This gives us a valid string with the minimum number of parentheses removed.
+we uses backtracking to generate all the parenthesis so we use recursion.
+base case is if open and close parentheseis become equal to n then push the string that you have build into ans vecotor.
+recursive case are like if open < n then add the ( open parenthesis to the currrent string and  increment the open and all same.
+second recursive case-
+we will only add closing ) when close<open then add the ) into current string and increment close and all same.
 
 ## Complexity
-- **Time:** O(n)
+- **Time:** O(4^n)
 - **Space:** O(n)
 
 
-**Patterns used:** `Stack/Queue`
+**Patterns used:** `Backtracking`
 
 ---
 _Synced automatically by LeetCode → GitHub Sync._
