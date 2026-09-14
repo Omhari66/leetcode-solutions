@@ -1,6 +1,6 @@
 # My LeetCode Progress
 
-> **12** solved — 5 Easy · 4 Medium · 3 Hard
+> **13** solved — 5 Easy · 4 Medium · 4 Hard
 
 | # | Problem | Difficulty | Folder |
 |---|---------|------------|--------|
@@ -16,3 +16,4 @@
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | 🟢 Easy | [`0496-next-greater-element-i`](./0496-next-greater-element-i) |
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | 🟡 Medium | [`0150-evaluate-reverse-polish-notation`](./0150-evaluate-reverse-polish-notation) |
 | 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | 🔴 Hard | [`0032-longest-valid-parentheses`](./0032-longest-valid-parentheses) |
+| 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | 🔴 Hard | [`0084-largest-rectangle-in-histogram`](./0084-largest-rectangle-in-histogram) |
