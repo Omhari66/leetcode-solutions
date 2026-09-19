@@ -1,6 +1,6 @@
 # My LeetCode Progress
 
-> **14** solved — 6 Easy · 4 Medium · 4 Hard
+> **15** solved — 7 Easy · 4 Medium · 4 Hard
 
 | # | Problem | Difficulty | Folder |
 |---|---------|------------|--------|
@@ -18,3 +18,4 @@
 | 32 | [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/) | 🔴 Hard | [`0032-longest-valid-parentheses`](./0032-longest-valid-parentheses) |
 | 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | 🔴 Hard | [`0084-largest-rectangle-in-histogram`](./0084-largest-rectangle-in-histogram) |
 | 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | 🟢 Easy | [`0232-implement-queue-using-stacks`](./0232-implement-queue-using-stacks) |
+| 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | 🟢 Easy | [`0225-implement-stack-using-queues`](./0225-implement-stack-using-queues) |
