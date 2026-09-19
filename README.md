@@ -1,6 +1,6 @@
 # My LeetCode Progress
 
-> **15** solved — 7 Easy · 4 Medium · 4 Hard
+> **16** solved — 7 Easy · 5 Medium · 4 Hard
 
 | # | Problem | Difficulty | Folder |
 |---|---------|------------|--------|
@@ -19,3 +19,4 @@
 | 84 | [Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | 🔴 Hard | [`0084-largest-rectangle-in-histogram`](./0084-largest-rectangle-in-histogram) |
 | 232 | [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | 🟢 Easy | [`0232-implement-queue-using-stacks`](./0232-implement-queue-using-stacks) |
 | 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | 🟢 Easy | [`0225-implement-stack-using-queues`](./0225-implement-stack-using-queues) |
+| 622 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | 🟡 Medium | [`Stack/Queue/0622-design-circular-queue`](./Stack/Queue/0622-design-circular-queue) |
