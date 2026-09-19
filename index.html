@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My LeetCode Portfolio</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #0d1117; color: #c9d1d9; margin: 0; padding: 40px 20px; text-align: center; }
+    h1 { color: #58a6ff; margin-bottom: 5px; }
+    #stats { margin: 10px 0 30px; font-size: 1.2rem; font-weight: 500; color: #8b949e; }
+    table { margin: 0 auto; border-collapse: collapse; width: 100%; max-width: 800px; text-align: left; }
+    th, td { padding: 12px; border-bottom: 1px solid #30363d; }
+    th { background: #161b22; }
+    a { color: #58a6ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+  <h1>My LeetCode Portfolio</h1>
+  <div id="stats">Loading stats...</div>
+  <div id="table-container"></div>
+  <script>
+    fetch('README.md').then(r => r.text()).then(text => {
+      const statsMatch = text.match(/> **(d+)** solved — (d+) Easy · (d+) Medium · (d+) Hard/);
+      if (statsMatch) {
+         document.getElementById('stats').innerHTML = `${statsMatch[1]} Solved: <span style="color:#2ecc71">${statsMatch[2]} Easy</span> | <span style="color:#f39c12">${statsMatch[3]} Medium</span> | <span style="color:#e74c3c">${statsMatch[4]} Hard</span>`;
+      }
+      const tableStart = text.indexOf('| # |');
+      if (tableStart !== -1) {
+        document.getElementById('table-container').innerHTML = marked.parse(text.substring(tableStart));
+      }
+    });
+  </script>
+</body>
+</html>
