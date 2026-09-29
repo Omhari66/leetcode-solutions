@@ -1,6 +1,6 @@
 # My LeetCode Progress
 
-> **17** solved — 7 Easy · 6 Medium · 4 Hard
+> **18** solved — 8 Easy · 6 Medium · 4 Hard
 
 | # | Problem | Difficulty | Folder |
 |---|---------|------------|--------|
@@ -21,3 +21,4 @@
 | 225 | [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | 🟢 Easy | [`0225-implement-stack-using-queues`](./0225-implement-stack-using-queues) |
 | 622 | [Design Circular Queue](https://leetcode.com/problems/design-circular-queue/) | 🟡 Medium | [`Stack/Queue/0622-design-circular-queue`](./Stack/Queue/0622-design-circular-queue) |
 | 752 | [Open the Lock](https://leetcode.com/problems/open-the-lock/) | 🟡 Medium | [`BFS/DFS/0752-open-the-lock`](./BFS/DFS/0752-open-the-lock) |
+| 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | 🟢 Easy | [`Stack/Queue/1046-last-stone-weight`](./Stack/Queue/1046-last-stone-weight) |
