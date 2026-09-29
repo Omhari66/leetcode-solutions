@@ -20,3 +20,14 @@ Another approach is to sort the stones, but after inserting the remaining stone,
 A better approach is to use a priority queue implemented as a max heap. We pop the two largest values, calculate their difference, and push the remaining value back into the heap. Since the maximum element is always at the top, we can efficiently get the two heaviest stones.
 
 ---
+
+## Approach: Optimial
+
+⏱️ **Time Spent:** 10min
+
+- **Time Complexity:** O(n log k)
+- **Space Complexity:** O(n)
+
+Min heap of size k = keeps the k largest elements, with the kth largest sitting at the top.
+
+---
