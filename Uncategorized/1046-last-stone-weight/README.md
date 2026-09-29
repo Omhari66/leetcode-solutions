@@ -17,3 +17,13 @@
 I need kth largest element so one of the basic sollution or bruteforce way is just sort by descending order then just return the kth element.
 
 ---
+
+## Approach: Solution
+
+
+- **Time Complexity:** O(?)
+- **Space Complexity:** O(?)
+
+*No notes provided.*
+
+---
