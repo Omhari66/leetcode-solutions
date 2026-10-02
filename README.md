@@ -1,6 +1,6 @@
 # My LeetCode Progress
 
-> **19** solved — 9 Easy · 6 Medium · 4 Hard
+> **20** solved — 9 Easy · 7 Medium · 4 Hard
 
 | # | Problem | Difficulty | Folder |
 |---|---------|------------|--------|
@@ -23,3 +23,4 @@
 | 752 | [Open the Lock](https://leetcode.com/problems/open-the-lock/) | 🟡 Medium | [`BFS/DFS/0752-open-the-lock`](./BFS/DFS/0752-open-the-lock) |
 | 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | 🟢 Easy | [`Stack/Queue/1046-last-stone-weight`](./Stack/Queue/1046-last-stone-weight) |
 | 703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | 🟢 Easy | [`Heap/0703-kth-largest-element-in-a-stream`](./Heap/0703-kth-largest-element-in-a-stream) |
+| 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | 🟡 Medium | [`Heap/0621-task-scheduler`](./Heap/0621-task-scheduler) |
