@@ -1,6 +1,6 @@
 # My LeetCode Progress
 
-> **21** solved — 9 Easy · 7 Medium · 5 Hard
+> **22** solved — 9 Easy · 8 Medium · 5 Hard
 
 | # | Problem | Difficulty | Folder |
 |---|---------|------------|--------|
@@ -25,3 +25,4 @@
 | 703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | 🟢 Easy | [`Heap/0703-kth-largest-element-in-a-stream`](./Heap/0703-kth-largest-element-in-a-stream) |
 | 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | 🟡 Medium | [`Heap/0621-task-scheduler`](./Heap/0621-task-scheduler) |
 | 759 | [Employee Free Time](https://leetcode.com/problems/employee-free-time/) | 🔴 Hard | [`Heap/0759-employee-free-time`](./Heap/0759-employee-free-time) |
+| 355 | [Design Twitter](https://leetcode.com/problems/design-twitter/) | 🟡 Medium | [`Uncategorized/0355-design-twitter`](./Uncategorized/0355-design-twitter) |
