@@ -1,6 +1,6 @@
 # My LeetCode Progress
 
-> **20** solved — 9 Easy · 7 Medium · 4 Hard
+> **21** solved — 9 Easy · 7 Medium · 5 Hard
 
 | # | Problem | Difficulty | Folder |
 |---|---------|------------|--------|
@@ -24,3 +24,4 @@
 | 1046 | [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) | 🟢 Easy | [`Stack/Queue/1046-last-stone-weight`](./Stack/Queue/1046-last-stone-weight) |
 | 703 | [Kth Largest Element in a Stream](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | 🟢 Easy | [`Heap/0703-kth-largest-element-in-a-stream`](./Heap/0703-kth-largest-element-in-a-stream) |
 | 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | 🟡 Medium | [`Heap/0621-task-scheduler`](./Heap/0621-task-scheduler) |
+| 759 | [Employee Free Time](https://leetcode.com/problems/employee-free-time/) | 🔴 Hard | [`Heap/0759-employee-free-time`](./Heap/0759-employee-free-time) |
