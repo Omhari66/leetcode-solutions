@@ -22,3 +22,20 @@ so use helper method to find the height and the main part was not only check roo
 3. Right subtree is balanced
 
 ---
+
+## Approach: Optimal
+
+⏱️ **Time Spent:** 10min
+
+- **Time Complexity:** O(n)
+- **Space Complexity:** o(n)
+
+Go to children
+    ↓
+Get their heights
+    ↓
+Check balance
+    ↓
+Return height
+
+---
