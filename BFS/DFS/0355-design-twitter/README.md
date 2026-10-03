@@ -40,3 +40,16 @@ Are these two nodes the same?
       compare their right children
 
 ---
+
+## Approach: optimal
+
+⏱️ **Time Spent:** 10min
+
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(n)
+
+We need to check if the tree is mirror of itself or not also known as symmetric.
+so we use helper methof mirror and in that we send root left and right.
+if left of left ==right of right and right of left and left of right same then it a mirror.
+
+---
