@@ -39,3 +39,14 @@ Check balance
 Return height
 
 ---
+
+## Approach: BFS+QUEUE
+
+⏱️ **Time Spent:** 15min
+
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(h)
+
+we need to do the level order traversal for that i have used the queue to store the front as root node then traverse the node level wise and store them in a level vector and each level we push into the answer vector of vector.
+
+---
