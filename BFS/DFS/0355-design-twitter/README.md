@@ -53,3 +53,20 @@ so we use helper methof mirror and in that we send root left and right.
 if left of left ==right of right and right of left and left of right same then it a mirror.
 
 ---
+
+## Approach: Optmial
+
+⏱️ **Time Spent:** 10min
+
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(h)
+
+we need to invert the tree mean root->left become right and vice-versa.
+for that first save left node and explore left of tree and same for ritht.
+then just root->left=left and root->right=right;
+Same Tree       → O(n) time, O(h) space
+Symmetric Tree  → O(n) time, O(h) space
+Invert Tree     → O(n) time, O(h) space
+Max Depth       → O(n) time, O(h) space
+
+---
