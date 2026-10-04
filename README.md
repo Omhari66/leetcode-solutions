@@ -1,6 +1,6 @@
 # My LeetCode Progress
 
-> **23** solved — 10 Easy · 8 Medium · 5 Hard
+> **24** solved — 10 Easy · 9 Medium · 5 Hard
 
 | # | Problem | Difficulty | Folder |
 |---|---------|------------|--------|
@@ -27,3 +27,4 @@
 | 759 | [Employee Free Time](https://leetcode.com/problems/employee-free-time/) | 🔴 Hard | [`Heap/0759-employee-free-time`](./Heap/0759-employee-free-time) |
 | 355 | [Design Twitter](https://leetcode.com/problems/design-twitter/) | 🟡 Medium | [`Uncategorized/0355-design-twitter`](./Uncategorized/0355-design-twitter) |
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 🟢 Easy | [`BFS/DFS/0110-balanced-binary-tree`](./BFS/DFS/0110-balanced-binary-tree) |
+| 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | 🟡 Medium | [`BFS/DFS/0103-binary-tree-zigzag-level-order-traversal`](./BFS/DFS/0103-binary-tree-zigzag-level-order-traversal) |
