@@ -32,3 +32,17 @@ So we choose the BFS level wise traversal and simply where iteration become size
 if queue size is 3 then right most node is size-1.
 
 ---
+
+## Approach: O(n)
+
+⏱️ **Time Spent:** 15min
+
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(h)
+
+We have given a root and subroot and we need to check whether they have same value and structure.
+we already know how to check if two are same or not we can use helper method isSameTree(p,q).
+
+recursively call isSubtree for root->left and root-.right
+
+---
