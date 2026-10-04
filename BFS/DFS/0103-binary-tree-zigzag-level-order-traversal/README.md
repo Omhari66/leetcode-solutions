@@ -60,3 +60,15 @@ recursive case- root->val>=maxV gn=1 and updaate maxV.
 the traverse gn+=left and right.
 
 ---
+
+## Approach: Optimal
+
+⏱️ **Time Spent:** 10min
+
+- **Time Complexity:** O(n(
+- **Space Complexity:** o(h)
+
+so we need to calculate the diameter and we use the helper method to calculate the edges of left and right.
+return 1+max(l,r) adding node from left and right then updating the max Diameter we found.
+
+---
