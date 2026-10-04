@@ -46,3 +46,17 @@ we already know how to check if two are same or not we can use helper method isS
 recursively call isSubtree for root->left and root-.right
 
 ---
+
+## Approach: Optimal
+
+⏱️ **Time Spent:** 10min
+
+- **Time Complexity:** O(n)
+- **Space Complexity:** O(h)
+
+we use a helper function to count the node with passing the maxV seen so far.
+our base case was if root become null then return 0.
+recursive case- root->val>=maxV gn=1 and updaate maxV.
+the traverse gn+=left and right.
+
+---
