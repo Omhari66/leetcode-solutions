@@ -11,19 +11,19 @@
  */
 class Solution {
 public:
-    int count(TreeNode* root,int maxV){
-        if(root==NULL) return 0;
-        int gn=0;
-        if(root->val>=maxV){
-            gn=1;
-            maxV=max(root->val,maxV);
+    int maxDiam=0;
+    int length(TreeNode* root){
+        if(root==NULL){
+            return 0;
         }
-        gn+=count(root->left,maxV);
-        gn+=count(root->right,maxV);
-        return gn;
+        int l=length(root->left);
+        int r=length(root->right);
+        maxDiam=max(maxDiam,l+r);
+        return 1+max(l,r);
     }
-    int goodNodes(TreeNode* root) {
-        if(root==NULL) return 0;
-        return count(root,root->val);
+    int diameterOfBinaryTree(TreeNode* root) {
+       length(root);
+
+        return maxDiam;
     }
 };
