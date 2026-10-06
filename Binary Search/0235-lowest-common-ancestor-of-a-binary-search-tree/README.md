@@ -18,3 +18,14 @@ we need to find the lowest ancestor and we know in binary search if parentVal > 
 It's more efficient in iterative there you will solve in O(1) space complexity
 
 ---
+
+## Approach: Optimal
+
+⏱️ **Time Spent:** 10min
+
+- **Time Complexity:** O(n0
+- **Space Complexity:** O(h)
+
+We know BST give sorted answer and we need to return kth so we traverse left and count the node when count become equal to k return the root val as answer else traverse the right side.
+
+---
