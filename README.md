@@ -1,6 +1,6 @@
 # My LeetCode Progress
 
-> **24** solved — 10 Easy · 9 Medium · 5 Hard
+> **25** solved — 10 Easy · 10 Medium · 5 Hard
 
 | # | Problem | Difficulty | Folder |
 |---|---------|------------|--------|
@@ -28,3 +28,4 @@
 | 355 | [Design Twitter](https://leetcode.com/problems/design-twitter/) | 🟡 Medium | [`Uncategorized/0355-design-twitter`](./Uncategorized/0355-design-twitter) |
 | 110 | [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/) | 🟢 Easy | [`BFS/DFS/0110-balanced-binary-tree`](./BFS/DFS/0110-balanced-binary-tree) |
 | 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | 🟡 Medium | [`BFS/DFS/0103-binary-tree-zigzag-level-order-traversal`](./BFS/DFS/0103-binary-tree-zigzag-level-order-traversal) |
+| 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 Medium | [`Binary Search/0098-validate-binary-search-tree`](./Binary%20Search/0098-validate-binary-search-tree) |
