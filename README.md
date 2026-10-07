@@ -1,6 +1,6 @@
 # My LeetCode Progress
 
-> **26** solved — 10 Easy · 11 Medium · 5 Hard
+> **27** solved — 10 Easy · 12 Medium · 5 Hard
 
 | # | Problem | Difficulty | Folder |
 |---|---------|------------|--------|
@@ -30,3 +30,4 @@
 | 103 | [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | 🟡 Medium | [`BFS/DFS/0103-binary-tree-zigzag-level-order-traversal`](./BFS/DFS/0103-binary-tree-zigzag-level-order-traversal) |
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | 🟡 Medium | [`Binary Search/0098-validate-binary-search-tree`](./Binary%20Search/0098-validate-binary-search-tree) |
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | 🟡 Medium | [`Binary Search/0235-lowest-common-ancestor-of-a-binary-search-tree`](./Binary%20Search/0235-lowest-common-ancestor-of-a-binary-search-tree) |
+| 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 Medium | [`BFS/DFS/0105-construct-binary-tree-from-preorder-and-inorder-traversal`](./BFS/DFS/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
