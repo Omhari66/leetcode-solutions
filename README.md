@@ -1,6 +1,6 @@
 # My LeetCode Progress
 
-> **28** solved — 10 Easy · 12 Medium · 6 Hard
+> **29** solved — 10 Easy · 12 Medium · 7 Hard
 
 | # | Problem | Difficulty | Folder |
 |---|---------|------------|--------|
@@ -32,3 +32,4 @@
 | 235 | [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | 🟡 Medium | [`Binary Search/0235-lowest-common-ancestor-of-a-binary-search-tree`](./Binary%20Search/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 Medium | [`BFS/DFS/0105-construct-binary-tree-from-preorder-and-inorder-traversal`](./BFS/DFS/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | 297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | 🔴 Hard | [`BFS/DFS/0297-serialize-and-deserialize-binary-tree`](./BFS/DFS/0297-serialize-and-deserialize-binary-tree) |
+| 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | 🔴 Hard | [`BFS/DFS/0124-binary-tree-maximum-path-sum`](./BFS/DFS/0124-binary-tree-maximum-path-sum) |
