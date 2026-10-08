@@ -1,6 +1,6 @@
 # My LeetCode Progress
 
-> **29** solved — 10 Easy · 12 Medium · 7 Hard
+> **30** solved — 11 Easy · 12 Medium · 7 Hard
 
 | # | Problem | Difficulty | Folder |
 |---|---------|------------|--------|
@@ -33,3 +33,4 @@
 | 105 | [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | 🟡 Medium | [`BFS/DFS/0105-construct-binary-tree-from-preorder-and-inorder-traversal`](./BFS/DFS/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | 297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | 🔴 Hard | [`BFS/DFS/0297-serialize-and-deserialize-binary-tree`](./BFS/DFS/0297-serialize-and-deserialize-binary-tree) |
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | 🔴 Hard | [`BFS/DFS/0124-binary-tree-maximum-path-sum`](./BFS/DFS/0124-binary-tree-maximum-path-sum) |
+| 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | 🟢 Easy | [`Trie/0100-same-tree`](./Trie/0100-same-tree) |
