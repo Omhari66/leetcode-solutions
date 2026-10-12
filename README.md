@@ -1,6 +1,6 @@
 # My LeetCode Progress
 
-> **30** solved — 11 Easy · 12 Medium · 7 Hard
+> **31** solved — 11 Easy · 12 Medium · 8 Hard
 
 | # | Problem | Difficulty | Folder |
 |---|---------|------------|--------|
@@ -34,3 +34,4 @@
 | 297 | [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | 🔴 Hard | [`BFS/DFS/0297-serialize-and-deserialize-binary-tree`](./BFS/DFS/0297-serialize-and-deserialize-binary-tree) |
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | 🔴 Hard | [`BFS/DFS/0124-binary-tree-maximum-path-sum`](./BFS/DFS/0124-binary-tree-maximum-path-sum) |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | 🟢 Easy | [`Trie/0100-same-tree`](./Trie/0100-same-tree) |
+| 212 | [Word Search II](https://leetcode.com/problems/word-search-ii/) | 🔴 Hard | [`Trie/0212-word-search-ii`](./Trie/0212-word-search-ii) |
