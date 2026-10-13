@@ -1,0 +1,59 @@
+class WordDictionary {
+public:
+
+class Node{
+public:
+    Node* children[26];
+    bool isEnd;
+    Node(){
+        isEnd=false;
+        for(int i=0;i<26;i++){
+            children[i]=NULL;
+        }
+    }
+};
+Node* root;
+    WordDictionary() {
+        root=new Node();
+    }
+    
+    void addWord(string word) {
+        Node* curr=root;
+        for(char ch:word){
+            int idx=ch-'a';
+            if(curr->children[idx]==NULL){
+                curr->children[idx]=new Node();
+            }
+            curr=curr->children[idx];
+        }
+        curr->isEnd=true;
+    }
+    bool dfs(Node* node,string word,int i){
+        if(i==word.size()) return node->isEnd;// all matches
+
+        if(word[i]=='.'){//dot
+
+        for(Node* child:node->children){
+            if(child!=NULL&&dfs(child,word,i+1))return true;
+        }
+        return false;
+        }
+        int idx=word[i]-'a';
+
+        if(node->children[idx]==NULL) return false;
+
+        return dfs(node->children[idx],word,i+1);
+
+    }
+    bool search(string word) {
+        int i;
+        return dfs(root,word,i=0);
+    }
+};
+
+/**
+ * Your WordDictionary object will be instantiated and called as such:
+ * WordDictionary* obj = new WordDictionary();
+ * obj->addWord(word);
+ * bool param_2 = obj->search(word);
+ */
