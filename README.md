@@ -1,6 +1,6 @@
 # My LeetCode Progress
 
-> **31** solved — 11 Easy · 12 Medium · 8 Hard
+> **32** solved — 11 Easy · 13 Medium · 8 Hard
 
 | # | Problem | Difficulty | Folder |
 |---|---------|------------|--------|
@@ -35,3 +35,4 @@
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | 🔴 Hard | [`BFS/DFS/0124-binary-tree-maximum-path-sum`](./BFS/DFS/0124-binary-tree-maximum-path-sum) |
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | 🟢 Easy | [`Trie/0100-same-tree`](./Trie/0100-same-tree) |
 | 212 | [Word Search II](https://leetcode.com/problems/word-search-ii/) | 🔴 Hard | [`Trie/0212-word-search-ii`](./Trie/0212-word-search-ii) |
+| 211 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | 🟡 Medium | [`Trie/0211-design-add-and-search-words-data-structure`](./Trie/0211-design-add-and-search-words-data-structure) |
