@@ -1,6 +1,6 @@
 # My LeetCode Progress
 
-> **33** solved — 11 Easy · 14 Medium · 8 Hard
+> **34** solved — 12 Easy · 14 Medium · 8 Hard
 
 | # | Problem | Difficulty | Folder |
 |---|---------|------------|--------|
@@ -37,3 +37,4 @@
 | 212 | [Word Search II](https://leetcode.com/problems/word-search-ii/) | 🔴 Hard | [`Trie/0212-word-search-ii`](./Trie/0212-word-search-ii) |
 | 211 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | 🟡 Medium | [`Trie/0211-design-add-and-search-words-data-structure`](./Trie/0211-design-add-and-search-words-data-structure) |
 | 547 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | 🟡 Medium | [`Graph/0547-number-of-provinces`](./Graph/0547-number-of-provinces) |
+| 1971 | [Find if Path Exists in Graph](https://leetcode.com/problems/find-if-path-exists-in-graph/) | 🟢 Easy | [`Graph/1971-find-if-path-exists-in-graph`](./Graph/1971-find-if-path-exists-in-graph) |
