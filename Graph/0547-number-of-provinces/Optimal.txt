@@ -1,0 +1,24 @@
+class Solution {
+private:
+    void dfs(int city,vector<vector<int>>& isConnected,vector<int>& visited){
+        visited[city]=1;
+        for(int neigh=0;neigh<isConnected.size();neigh++){
+            if(isConnected[city][neigh]==1&&!visited[neigh]){
+                dfs(neigh,isConnected,visited);
+            }
+        }
+    }
+public:
+    int findCircleNum(vector<vector<int>>& isConnected) {
+        int n=isConnected.size();
+        vector<int>visited(n,0);
+        int province=0;
+        for(int city=0;city<n;city++){
+            if(!visited[city]){
+                province++;
+                dfs(city,isConnected,visited);
+            }
+        }
+    return province;
+    }
+};
