@@ -1,6 +1,6 @@
 # My LeetCode Progress
 
-> **32** solved — 11 Easy · 13 Medium · 8 Hard
+> **33** solved — 11 Easy · 14 Medium · 8 Hard
 
 | # | Problem | Difficulty | Folder |
 |---|---------|------------|--------|
@@ -36,3 +36,4 @@
 | 100 | [Same Tree](https://leetcode.com/problems/same-tree/) | 🟢 Easy | [`Trie/0100-same-tree`](./Trie/0100-same-tree) |
 | 212 | [Word Search II](https://leetcode.com/problems/word-search-ii/) | 🔴 Hard | [`Trie/0212-word-search-ii`](./Trie/0212-word-search-ii) |
 | 211 | [Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | 🟡 Medium | [`Trie/0211-design-add-and-search-words-data-structure`](./Trie/0211-design-add-and-search-words-data-structure) |
+| 547 | [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | 🟡 Medium | [`Graph/0547-number-of-provinces`](./Graph/0547-number-of-provinces) |
