@@ -1,6 +1,6 @@
 # My LeetCode Progress
 
-> **37** solved — 14 Easy · 15 Medium · 8 Hard
+> **38** solved — 14 Easy · 16 Medium · 8 Hard
 
 | # | Problem | Difficulty | Folder |
 |---|---------|------------|--------|
@@ -41,3 +41,4 @@
 | 733 | [Flood Fill](https://leetcode.com/problems/flood-fill/) | 🟢 Easy | [`Graph/0733-flood-fill`](./Graph/0733-flood-fill) |
 | 463 | [Island Perimeter](https://leetcode.com/problems/island-perimeter/) | 🟢 Easy | [`Graph/0463-island-perimeter`](./Graph/0463-island-perimeter) |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | 🟡 Medium | [`Graph/0200-number-of-islands`](./Graph/0200-number-of-islands) |
+| 130 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | 🟡 Medium | [`Graph/0130-surrounded-regions`](./Graph/0130-surrounded-regions) |
