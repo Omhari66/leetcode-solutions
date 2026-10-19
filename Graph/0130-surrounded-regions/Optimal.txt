@@ -1,0 +1,54 @@
+class Solution {
+private:
+    bool check(int r,int c,vector<vector<char>>& board){
+        return board[r][c]=='O';
+    }
+private:
+    void dfs(int i,int j,vector<vector<char>>&board,vector<vector<int>>&visited){
+        int rows=board.size();
+        int cols=board[0].size();
+        if(i<0||j<0||i>=rows||j>=cols||board[i][j]!='O'||visited[i][j]){
+            return;
+        }
+        visited[i][j]=1;
+        dfs(i,j-1,board,visited);
+        dfs(i-1,j,board,visited);
+        dfs(i,j+1,board,visited);
+        dfs(i+1,j,board,visited);
+    }
+public:
+    void solve(vector<vector<char>>& board) {
+        int rows=board.size();
+        if(rows==0)return;
+        int cols=board[0].size();
+        if(cols==0)return;
+        vector<vector<int>>visited(rows,vector<int>(cols,0));
+       for(int i=0;i<rows;i++){//top and bottom
+        if(check(i,0,board)){
+            dfs(i,0,board,visited);
+        }
+        if(check(i,cols-1,board)){
+            dfs(i,cols-1,board,visited);
+        }
+       }
+       for(int i=0;i<cols;i++){
+        if(check(0,i,board)){
+            dfs(0,i,board,visited);
+        }
+        if(check(rows-1,i,board)){
+            dfs(rows-1,i,board,visited);
+        }
+       }
+        for(int i=0;i<rows;i++){
+            for(int j=0;j<cols;j++){
+                if(board[i][j]=='O'&&!visited[i][j]){
+                    board[i][j]='X';
+                }
+            }
+        }
+    }
+};
+// Create a visited matrix.
+// Check all four boundaries. Whenever you find an O, start DFS.
+// During DFS, mark every connected O as visited.
+// Traverse the entire matrix:
