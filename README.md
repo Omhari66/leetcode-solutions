@@ -1,6 +1,6 @@
 # My LeetCode Progress
 
-> **38** solved — 14 Easy · 16 Medium · 8 Hard
+> **39** solved — 14 Easy · 17 Medium · 8 Hard
 
 | # | Problem | Difficulty | Folder |
 |---|---------|------------|--------|
@@ -42,3 +42,4 @@
 | 463 | [Island Perimeter](https://leetcode.com/problems/island-perimeter/) | 🟢 Easy | [`Graph/0463-island-perimeter`](./Graph/0463-island-perimeter) |
 | 200 | [Number of Islands](https://leetcode.com/problems/number-of-islands/) | 🟡 Medium | [`Graph/0200-number-of-islands`](./Graph/0200-number-of-islands) |
 | 130 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | 🟡 Medium | [`Graph/0130-surrounded-regions`](./Graph/0130-surrounded-regions) |
+| 684 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) | 🟡 Medium | [`Graph/0684-redundant-connection`](./Graph/0684-redundant-connection) |
