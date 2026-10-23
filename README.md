@@ -1,6 +1,6 @@
 # My LeetCode Progress
 
-> **40** solved — 14 Easy · 18 Medium · 8 Hard
+> **41** solved — 14 Easy · 19 Medium · 8 Hard
 
 | # | Problem | Difficulty | Folder |
 |---|---------|------------|--------|
@@ -44,3 +44,4 @@
 | 130 | [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/) | 🟡 Medium | [`Graph/0130-surrounded-regions`](./Graph/0130-surrounded-regions) |
 | 684 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) | 🟡 Medium | [`Graph/0684-redundant-connection`](./Graph/0684-redundant-connection) |
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | 🟡 Medium | [`Uncategorized/0133-clone-graph`](./Uncategorized/0133-clone-graph) |
+| 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | 🟡 Medium | [`Graph/0994-rotting-oranges`](./Graph/0994-rotting-oranges) |
