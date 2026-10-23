@@ -21,3 +21,15 @@ After marking all boudnay cell  having O as visited.
 We traverse the matrix and if not visited and have O change to X.
 
 ---
+
+## Approach: Optimal
+
+⏱️ **Time Spent:** 30min
+
+- **Time Complexity:** O(v+e)
+- **Space Complexity:** O(v)
+
+So we need to make a clone with the same original graph.
+we create an unordered map of two nodes and first store the original node and create a copy with the same node and store it. then traverse the neighbour of that original node and store that node using dfs traversal
+
+---
