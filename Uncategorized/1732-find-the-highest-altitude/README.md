@@ -19,3 +19,13 @@ one more constraint was n+1 it the case of zero in prefix sum-
 we know prefix[i+1]=prefix[i-1]+arr[i] and we created the vector of size n+1
 
 ---
+
+## Approach: Solution
+
+
+- **Time Complexity:** O(?)
+- **Space Complexity:** O(?)
+
+*No notes provided.*
+
+---
