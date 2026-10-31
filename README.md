@@ -1,6 +1,6 @@
 # My LeetCode Progress
 
-> **41** solved — 14 Easy · 19 Medium · 8 Hard
+> **42** solved — 15 Easy · 19 Medium · 8 Hard
 
 | # | Problem | Difficulty | Folder |
 |---|---------|------------|--------|
@@ -45,3 +45,4 @@
 | 684 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) | 🟡 Medium | [`Graph/0684-redundant-connection`](./Graph/0684-redundant-connection) |
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | 🟡 Medium | [`Uncategorized/0133-clone-graph`](./Uncategorized/0133-clone-graph) |
 | 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | 🟡 Medium | [`Graph/0994-rotting-oranges`](./Graph/0994-rotting-oranges) |
+| 1732 | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/) | 🟢 Easy | [`Uncategorized/1732-find-the-highest-altitude`](./Uncategorized/1732-find-the-highest-altitude) |
