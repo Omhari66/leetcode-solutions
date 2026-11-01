@@ -1,6 +1,6 @@
 # My LeetCode Progress
 
-> **42** solved — 15 Easy · 19 Medium · 8 Hard
+> **43** solved — 15 Easy · 20 Medium · 8 Hard
 
 | # | Problem | Difficulty | Folder |
 |---|---------|------------|--------|
@@ -46,3 +46,4 @@
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | 🟡 Medium | [`Uncategorized/0133-clone-graph`](./Uncategorized/0133-clone-graph) |
 | 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | 🟡 Medium | [`Graph/0994-rotting-oranges`](./Graph/0994-rotting-oranges) |
 | 1732 | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/) | 🟢 Easy | [`Uncategorized/1732-find-the-highest-altitude`](./Uncategorized/1732-find-the-highest-altitude) |
+| 453 | [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/) | 🟡 Medium | [`Math/0453-minimum-moves-to-equal-array-elements`](./Math/0453-minimum-moves-to-equal-array-elements) |
