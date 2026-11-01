@@ -1,0 +1,13 @@
+class Solution {
+public:
+    int minMoves(vector<int>& nums) {
+        long long sum=0;
+        int minVal=nums[0];
+        for(int x:nums){
+            minVal=min(minVal,x);
+            sum+=x;
+            
+        }
+        return sum-(nums.size())*minVal;
+    }
+};
