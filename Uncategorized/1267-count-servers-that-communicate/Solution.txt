@@ -1,0 +1,32 @@
+class Solution {
+public:
+    int countServers(vector<vector<int>>& grid) {
+        int cnt=0;
+        int rows=grid.size();
+        int cols=grid[0].size();
+
+vector<int>rs(rows,0);
+vector<int>cs(cols,0);
+
+        for(int r=0;r<rows;r++){
+            for(int c=0;c<cols;c++){
+                if(grid[r][c]==1){
+                    rs[r]++;
+                    cs[c]++;
+                }
+                
+            }
+        }
+        for(int r=0;r<rows;r++){
+            for(int c=0;c<cols;c++){
+                if(grid[r][c]==1){
+                    if(rs[r]>1||cs[c]>1){
+                        cnt++;
+                    }
+                }
+                
+            }
+        }
+        return cnt;
+    }
+};
