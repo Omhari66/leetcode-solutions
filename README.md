@@ -1,6 +1,6 @@
 # My LeetCode Progress
 
-> **44** solved — 16 Easy · 20 Medium · 8 Hard
+> **45** solved — 16 Easy · 21 Medium · 8 Hard
 
 | # | Problem | Difficulty | Folder |
 |---|---------|------------|--------|
@@ -48,3 +48,4 @@
 | 1732 | [Find the Highest Altitude](https://leetcode.com/problems/find-the-highest-altitude/) | 🟢 Easy | [`Uncategorized/1732-find-the-highest-altitude`](./Uncategorized/1732-find-the-highest-altitude) |
 | 453 | [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/) | 🟡 Medium | [`Math/0453-minimum-moves-to-equal-array-elements`](./Math/0453-minimum-moves-to-equal-array-elements) |
 | 3736 | [Minimum Moves to Equal Array Elements III](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) | 🟢 Easy | [`Uncategorized/3736-minimum-moves-to-equal-array-elements-iii`](./Uncategorized/3736-minimum-moves-to-equal-array-elements-iii) |
+| 1267 | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/) | 🟡 Medium | [`Uncategorized/1267-count-servers-that-communicate`](./Uncategorized/1267-count-servers-that-communicate) |
