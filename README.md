@@ -1,6 +1,6 @@
 # My LeetCode Progress
 
-> **45** solved — 16 Easy · 21 Medium · 8 Hard
+> **46** solved — 17 Easy · 21 Medium · 8 Hard
 
 | # | Problem | Difficulty | Folder |
 |---|---------|------------|--------|
@@ -49,3 +49,4 @@
 | 453 | [Minimum Moves to Equal Array Elements](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/) | 🟡 Medium | [`Math/0453-minimum-moves-to-equal-array-elements`](./Math/0453-minimum-moves-to-equal-array-elements) |
 | 3736 | [Minimum Moves to Equal Array Elements III](https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/) | 🟢 Easy | [`Uncategorized/3736-minimum-moves-to-equal-array-elements-iii`](./Uncategorized/3736-minimum-moves-to-equal-array-elements-iii) |
 | 1267 | [Count Servers that Communicate](https://leetcode.com/problems/count-servers-that-communicate/) | 🟡 Medium | [`Uncategorized/1267-count-servers-that-communicate`](./Uncategorized/1267-count-servers-that-communicate) |
+| 1768 | [Merge Strings Alternately](https://leetcode.com/problems/merge-strings-alternately/) | 🟢 Easy | [`Uncategorized/1768-merge-strings-alternately`](./Uncategorized/1768-merge-strings-alternately) |
